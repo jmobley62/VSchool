@@ -1,0 +1,43 @@
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  position: relative;
+  height: 90vh;
+}
+
+.hero {
+  max-width: 700px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.answer {
+  display: inline-block;
+  margin: 10px 10px;
+}
+
+#myBtn {
+  margin-left: 40%;
+  margin-top: 10px;
+  align-items: auto;
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid white;
+}
+
+#end {
+  margin-left: 27%;
+  align-items: auto;
+  font-size: large;
+}

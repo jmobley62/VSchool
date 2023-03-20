@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form name="myForm">
+      <!-- NAME -->
+      <div id="name">
+        <label class="label">First Name: </label>
+        <input type="text" id="name" name="firstName" required />
+        <label class="label">Last Name: </label>
+        <input type="text" id="name" name="lastName" required />
+      </div>
+
+      <!-- Age -->
+      <div id="age">
+        <label id="age" class="label">Age: </label>
+        <input type="number" id="age" name="age" required />
+      </div>
+      <div id="gender">
+        <label id="gender" class="label">Gender: </label>
+        <input type="radio" name="gender" value="male" required />
+        <label id="gender">Male</label>
+        <input type="radio" name="gender" value="female" required />
+        <label id="gender">Female</label>
+      </div>
+
+      <!-- LOCATION -->
+      <div id="location">
+        <label id="location" class="label">Location:</label>
+        <select name="location" id="location" required>
+          <option value="charlotte">Charlotte</option>
+          <option value="raleigh">Raleigh</option>
+          <option value="durham">Durham</option>
+        </select>
+      </div>
+
+      <!-- FOOD -->
+      <div id="food">
+        <label class="label">Food:</label>
+        <input
+          type="checkbox"
+          id="food"
+          name="food"
+          value="vegetarian"
+          required
+        />
+        <label>Vegetarian</label>
+        <input type="checkbox" id="food" name="food" value="kosher" required />
+        <label>Kosher</label>
+        <input
+          type="checkbox"
+          id="food"
+          name="food"
+          value="lactose free"
+          required
+        />
+        <label>Lactose Free</label>
+      </div>
+      <button id="submit">Submit</button>
+    </form>
+  </body>
+  <script src="index.js"></script>
+</html>
