@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: "Poppins", sans-serif;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* -----Header----- */
+
+header {
+  padding: 0 620px;
+  background-image: url("../img/pic.jpg");
+  background-color: black;
+  color: white;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+}
+
+.logo {
+}
+
+.nav-bar {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.nav-bar > li {
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.nav-bar > li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav-bar > li > a:hover {
+  color: purple;
+}
+
+.blog-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 170px;
+}
+
+.blog-header > h1 {
+  font-size: 77px;
+}
+
+.blog-header > h2 {
+  font-size: 20px;
+  font-weight: lighter;
+  margin-top: -60px;
+}
+
+/* -----Blog List----- */
+
+.blog-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 800px;
+}
+
+.blog-post > h1:hover {
+  color: purple;
+}
