@@ -1,6 +1,6 @@
 import React from "react";
 import BlogPosts from "./BlogPosts";
-import data from "./data.js";
+import data from "./data";
 
 export default function BlogList() {
   const posts = data.map((post) => {
